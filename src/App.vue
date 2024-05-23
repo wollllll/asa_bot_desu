@@ -121,7 +121,7 @@ const generateBaseBacklogUrl = async () => {
   const completeStatusIds = []
 
   for (const status of statusValues) {
-    if (status[2] === '1') {
+    if (status[2] === '0') {
       completeStatusIds.push(status[0])
     } else {
       statusIds.push(status[0])
